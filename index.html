@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <div class="header-container">
+          <div className="logo">Steve Ogal</div>
+          <nav>
+            <ul>
+            <li><a href="#home">Home</a></li>   
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <section class="hero">
+        <div id="container">
+          <h1>Web Developer</h1>
+          <p>
+            I create beautiful, functional, and user-friendly web applications.
+            Passionate about clean code, modern technologies, and solving
+            complex problems.
+          </p>
+          <div className="button-group">
+            <a href="#contact" className="btn btn-primary">
+              Get In Touch
+            </a>
+            <a href="#projects" className="btn btn-secondary">
+              View My Work
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" className="about">
+        <h2>About Me</h2>
+        <div className="about-content">
+          <div className="about-text">
+            <p>
+              I'm a passionate full-stack developer with over 3 years of
+              experience building web applications. I love turning complex
+              problems into simple, beautiful designs.
+            </p>
+            <p>
+              When I'm not coding, you can find me exploring new technologies,
+              contributing to open-source projects, or enjoying a good cup of
+              coffee while reading about the latest trends in web development.
+            </p>
+            <div className="social-icons">
+              <a href="#" title="GitHub">
+                GitHub
+              </a>
+              <a href="#" title="LinkedIn">
+                LinkedIn
+              </a>
+              <a href="#" title="Email">
+                Email
+              </a>
+            </div>
+          </div>
+          <div className="about-facts">
+            <h3>Quick Facts</h3>
+            <ul>
+              <li> Computer Science Graduate</li>
+              <li>🌍 Based in Your City</li>
+              <li>☕ Coffee Enthusiast</li>
+              <li>🚀 Always Learning</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" className="projects">
+        <h2>Featured Projects</h2>
+        <div className="projects-grid">
+          <div className="project-card">
+            <img
+              src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop"
+              alt="E-Commerce Platform"
+              className="project-image"
+            />
+            <div className="project-info">
+              <h3>E-Commerce Platform</h3>
+              <p>
+                A full-stack e-commerce solution built with React and Node.js,
+                featuring user authentication and payment processing.
+              </p>
+              <div className="tech-tags">
+                <span className="tech-tag">React</span>
+                <span className="tech-tag">Node.js</span>
+                <span className="tech-tag">MongoDB</span>
+              </div>
+              <div className="project-links">
+                <a href="#">Live Demo</a>
+                <a href="#">Code</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <img
+              src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop"
+              alt="Task Management App"
+              className="project-image"
+            />
+            <div className="project-info">
+              <h3>Task Management App</h3>
+              <p>
+                A collaborative task management application with real-time
+                updates and drag-and-drop functionality.
+              </p>
+              <div className="tech-tags">
+                <span className="tech-tag">React</span>
+                <span className="tech-tag">Firebase</span>
+                <span className="tech-tag">Socket.io</span>
+              </div>
+              <div className="project-links">
+                <a href="#">Live Demo</a>
+                <a href="#">Code</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <img
+              src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop"
+              alt="Weather Dashboard"
+              className="project-image"
+            />
+            <div className="project-info">
+              <h3>Weather Dashboard</h3>
+              <p>
+                A responsive weather dashboard that displays current conditions
+                and forecasts using real-time API data.
+              </p>
+              <div className="tech-tags">
+                <span className="tech-tag">JavaScript</span>
+                <span className="tech-tag">CSS3</span>
+                <span className="tech-tag">Weather API</span>
+              </div>
+              <div className="project-links">
+                <a href="#">Live Demo</a>
+                <a href="#">Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" className="skills">
+        <h2>Skills & Technologies</h2>
+        <div className="skills-grid">
+          <div className="skill-item">
+            <span>JavaScript</span>
+          </div>
+          <div className="skill-item">
+            <span>Python</span>
+          </div>
+          <div className="skill-item">
+            <span>CSS</span>
+          </div>
+          <div className="skill-item">
+            <span>HTML</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" className="contact">
+        <h2>Let's Work Together</h2>
+        <p>
+          I'm always interested in new opportunities and exciting projects.
+          Let's discuss how we can bring your ideas to life.
+        </p>
+        <div className="contact-grid">
+          <div className="contact-item">
+            <h3>📧 Email</h3>
+            <p>ogalsteve00@gmail.com</p>
+          </div>
+          <div className="contact-item">
+            <h3>💼 LinkedIn</h3>
+            <p>linkedin.com/in/ben</p>
+          </div>
+          <div className="contact-item">
+            <h3>💻 GitHub</h3>
+            <p>github.com/mtaa star</p>
+          </div>
+        </div>
+        <a href="mailto:your.email@example.com" className="contact-btn">
+          Send Message
+        </a>
+      </section>
+
+      <footer>
+        <p>© 2025 steve ogal. Built with HTML and CSS.</p>
+      </footer>
+</body>
+</html>
