@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
 </head>
 <body>
     <!-- header section -->
@@ -79,83 +79,29 @@
           </div>
         </div>
       </section>
-
-      <section id="projects" className="projects">
-        <h2>Featured Projects</h2>
-        <div className="projects-grid">
-          <div className="project-card">
-            <img
-              src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop"
-              alt="E-Commerce Platform"
-              className="project-image"
-            />
-            <div className="project-info">
-              <h3>E-Commerce Platform</h3>
-              <p>
-                A full-stack e-commerce solution built with React and Node.js,
-                featuring user authentication and payment processing.
-              </p>
-              <div className="tech-tags">
-                <span className="tech-tag">React</span>
-                <span className="tech-tag">Node.js</span>
-                <span className="tech-tag">MongoDB</span>
-              </div>
-              <div className="project-links">
-                <a href="#">Live Demo</a>
-                <a href="#">Code</a>
-              </div>
-            </div>
-          </div>
-
-          <div className="project-card">
-            <img
-              src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop"
-              alt="Task Management App"
-              className="project-image"
-            />
-            <div className="project-info">
-              <h3>Task Management App</h3>
-              <p>
-                A collaborative task management application with real-time
-                updates and drag-and-drop functionality.
-              </p>
-              <div className="tech-tags">
-                <span className="tech-tag">React</span>
-                <span className="tech-tag">Firebase</span>
-                <span className="tech-tag">Socket.io</span>
-              </div>
-              <div className="project-links">
-                <a href="#">Live Demo</a>
-                <a href="#">Code</a>
-              </div>
-            </div>
-          </div>
-
-          <div className="project-card">
-            <img
-              src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop"
-              alt="Weather Dashboard"
-              className="project-image"
-            />
-            <div className="project-info">
-              <h3>Weather Dashboard</h3>
-              <p>
-                A responsive weather dashboard that displays current conditions
-                and forecasts using real-time API data.
-              </p>
-              <div className="tech-tags">
-                <span className="tech-tag">JavaScript</span>
-                <span className="tech-tag">CSS3</span>
-                <span className="tech-tag">Weather API</span>
-              </div>
-              <div className="project-links">
-                <a href="#">Live Demo</a>
-                <a href="#">Code</a>
-              </div>
-            </div>
-          </div>
+      <div class="container-fluid border mt-3 p-3 bg-dark text-white  ">
+        <h2 class="h2 text-center ">PROJECTS</h2>
+        <!-- row example -->
+        <div class="row">
+            <!-- first column -->
+             <div class="col border bg-warning">
+                <h2>Payment system</h2>
+                <img src="static/images/payment.jfif" class="img-fluid rounded" alt="">
+                <p>This is the first column.</p>
+             </div>
+            <!-- second column -->
+             <div class="col border bg-dark">
+                <h2>ERP system</h2>
+                <img src="static/images/erp.png" class="img-fluid rounded" alt="">
+                <p>This is the second column.</p>
+             </div>
+            <!-- third column -->
+             <div class="col border bg-success">
+                <h2>Ecommerce website</h2>
+                <img src="static/images/ecommerce.jfif" class="img-fluid rounded" alt="">
+                <p>This is the third column.</p> 
         </div>
-      </section>
+
 
       <section id="skills" className="skills">
         <h2>Skills & Technologies</h2>
@@ -203,5 +149,6 @@
       <footer>
         <p>© 2025 steve ogal. Built with HTML and CSS.</p>
       </footer>
+      <script src="static/js/bootstrap.min.js"></script>
 </body>
 </html>
