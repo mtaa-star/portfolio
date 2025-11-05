@@ -91,3 +91,67 @@ body {
 .contact-button:hover {
     background-color: #0056b3;
 }
+.section-title {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.project {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.project p {
+    font-size: 1em;
+    color: black;
+    padding: 10px;
+}
+#about {
+        background: #fff;
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 90%;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        color: #333;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .about-text {
+        font-size: 16px;
+        color: #555;
+    }
+
+    p {
+        margin-bottom: 15px;
+    }
