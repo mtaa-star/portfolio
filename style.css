@@ -155,3 +155,87 @@ body {
     p {
         margin-bottom: 15px;
     }
+    .social-icons {
+            display: flex;
+            gap: 15px; /* Space between the icons */
+            padding: 20px; /* Padding around the icon container */
+            background-color: #f0f0f0; /* Background color */
+            border-radius: 8px; /* Rounded corners */
+        }
+
+        .social-icons a {
+            text-decoration: none; /* Remove underline from links */
+            color: #333; /* Text color */
+            padding: 10px 15px; /* Padding around each link */
+            border-radius: 5px; /* Rounded button effect */
+            transition: background-color 0.3s, color 0.3s; /* Smooth transition for effects */
+        }
+
+        .social-icons a:hover {
+            background-color: #0073e6; /* Background color on hover */
+            color: white; /* Text color on hover */
+        }
+        .about-facts {
+    background-color: #f8f9fa; /* Light background for contrast */
+    border: 1px solid #dee2e6; /* Light border for definition */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the section */
+    max-width: 400px; /* Restrict the width */
+    margin: 20px auto; /* Center the section horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.about-facts h3 {
+    font-family: 'Arial', sans-serif; /* Clean, modern font */
+    color: #343a40; /* Darker color for text */
+    margin-bottom: 15px; /* Space below the heading */
+    text-align: center; /* Center align the heading */
+}
+
+.facts-list {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.fact-item {
+    font-family: 'Arial', sans-serif; /* Consistent font style */
+    font-size: 1.1em; /* Increase font size for readability */
+    color: #495057; /* Slightly lighter shade for item text */
+    border-bottom: 1px solid #e9ecef; /* Divider line below each item */
+    padding: 10px 0; /* Spacing around list items */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.fact-item:hover {
+    background-color: #e9ecef; /* Highlight item on hover for interactivity */
+}
+.about-facts .fact-item:last-child {
+    border-bottom: none; /* Remove border from the last item */
+}
+.contact-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+.contact-item h3 {
+    color: #007BFF;
+}
+.contact-item p {
+    color: #555;
+}
+.contact-item a {
+    color: #007BFF;
+    text-decoration: none;
+}
+.contact-item a:hover {
+    text-decoration: underline;
+}
+.contact-button {
+    font-weight: bold;
+}
+.contact-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
