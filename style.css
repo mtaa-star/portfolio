@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif; /* Uses a clean, sans-serif font */
+    line-height: 1.6; /* Increases line height for readability */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: #f0f0f0; /* Light gray background for a soft look */
+    color: #333; /* Dark text color for contrast */
+}
+.hero {
+  background-image: url('static/images/bg.jfif');
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.skills {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skills h2 {
+  color: #333;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li {
+  padding: 5px 0;
+  font-size: 16px;
+}
+.contact {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+    text-align: center;
+    color: #333;
+}
+
+.contact-grid {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.contact-item {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.contact-button {
+    display: block;
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px auto;
+    width: 200px;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+}
