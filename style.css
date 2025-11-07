@@ -7,7 +7,7 @@ body {
     color: #333; /* Dark text color for contrast */
 }
 .hero {
-  background-image: url('static/images/bg.jfif');
+  background-image: url('static/images/steve.jpeg');
   height: 400px;
   background-size: cover;
   display: flex;
