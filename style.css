@@ -313,3 +313,8 @@ body {
     color: #ffffff;
     padding: 20px 0;
 }
+#prj {
+    cursor: pointer;
+    padding: auto;
+    
+}
